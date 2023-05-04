@@ -13,6 +13,7 @@ from problem_7 import *
 from problem_8 import *
 
 def main():
+
     spark_session = (SparkSession.builder
                      .master("local")
                      .appName("task app")
